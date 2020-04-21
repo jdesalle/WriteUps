@@ -24,7 +24,7 @@ A quick google search give us the following website for WPICSC (cybersecurity cl
   https://web.cs.wpi.edu/~csc/
 
 In it's source code, we can find a comment next to the CTF Manager name:
->  <p><b>CTF Manager: </b>Adrian Curless<br><!-- Check out our prizes-->
+>  <p><b>CTF Manager: </b>Adrian Curless<br> <-- Check out our prizes-->
   
  So, if we go to the source code of the page https://ctf.wpictf.xyz/prizes, we can finally get the comment:
 >   <!--WPI{1nsp3ct0r\_H@ck3R} -->
