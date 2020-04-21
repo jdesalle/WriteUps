@@ -9,7 +9,7 @@
 
 When looking at the source code of the page wpictf.xyz, we can find a comment that say
 
-> <!-- If you are looking for a WPI{FLAG}, you CANT be a robot! --> 
+> <-- If you are looking for a WPI{FLAG}, you CANT be a robot! --> 
 
  
 A quick search about web robot teach me that web robot can't acess adress refered in the file robots.txt of a website.
@@ -27,6 +27,6 @@ In it's source code, we can find a comment next to the CTF Manager name:
 >  <p><b>CTF Manager: </b>Adrian Curless<br> <-- Check out our prizes-->
   
  So, if we go to the source code of the page https://ctf.wpictf.xyz/prizes, we can finally get the comment:
->   <!--WPI{1nsp3ct0r\_H@ck3R} -->
+>   <--WPI{1nsp3ct0r\_H@ck3R} -->
    
  **flag** : WPI{1nsp3ct0r\_H@ck3R}
